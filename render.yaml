@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sdvosb-contract-tracker
+    env: docker
+    plan: starter
+    dockerfilePath: ./Dockerfile
+    autoDeploy: true
